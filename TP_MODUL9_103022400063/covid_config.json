@@ -1,6 +1,6 @@
 {
-  "satuan_suhu": "CONFIG1",
-  "batas_hari_deman": "CONFIG2",
-  "pesan_ditolak": "CONFIG3",
-  "pesan_diterima": "CONFIG4"
+  "satuan_suhu": "celcius",
+  "batas_hari_deman": "14",
+  "pesan_ditolak": "Anda tidak diperbolehkan masuk ke dalam gedung ini",
+  "pesan_diterima": "Anda dipersilahkan untuk masuk ke dalam gedung ini"
 }

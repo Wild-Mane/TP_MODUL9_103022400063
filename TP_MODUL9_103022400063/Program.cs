@@ -29,7 +29,7 @@ class CovidConfig
         else
         {
 
-            this.satuan_suhu = "fahrenheit";
+            this.satuan_suhu = "celsius";
             this.batas_hari_demam = 14;
             this.pesan_ditolak = "Anda tidak diperbolehkan masuk ke dalam gedung ini";
             this.pesan_diterima = "Anda dipersilahkan untuk masuk ke dalam gedung ini";
@@ -51,6 +51,7 @@ class CovidConfig
     {
         return (suhuCelcius * 9.0 / 5.0) + 32.0;
     }
+
 
     public double FahrenheitKeCelcius(double suhuFahrenheit)
     {
